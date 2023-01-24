@@ -1,0 +1,17 @@
+F:\c#\BulkyBook\BulkyBookDataAccess\obj\Debug\net6.0\BulkyBookDataAccess.csproj.AssemblyReference.cache
+F:\c#\BulkyBook\BulkyBookDataAccess\obj\Debug\net6.0\BulkyBookDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\c#\BulkyBook\BulkyBookDataAccess\obj\Debug\net6.0\BulkyBookDataAccess.AssemblyInfoInputs.cache
+F:\c#\BulkyBook\BulkyBookDataAccess\obj\Debug\net6.0\BulkyBookDataAccess.AssemblyInfo.cs
+F:\c#\BulkyBook\BulkyBookDataAccess\obj\Debug\net6.0\BulkyBookDataAccess.csproj.CoreCompileInputs.cache
+F:\c#\BulkyBook\BulkyBookDataAccess\bin\Debug\net6.0\BulkyBookDataAccess.deps.json
+F:\c#\BulkyBook\BulkyBookDataAccess\bin\Debug\net6.0\BulkyBookDataAccess.runtimeconfig.json
+F:\c#\BulkyBook\BulkyBookDataAccess\bin\Debug\net6.0\BulkyBookDataAccess.dll
+F:\c#\BulkyBook\BulkyBookDataAccess\bin\Debug\net6.0\BulkyBookDataAccess.pdb
+F:\c#\BulkyBook\BulkyBookDataAccess\bin\Debug\net6.0\BulkyBookModels.dll
+F:\c#\BulkyBook\BulkyBookDataAccess\bin\Debug\net6.0\BulkyBookModels.pdb
+F:\c#\BulkyBook\BulkyBookDataAccess\obj\Debug\net6.0\BulkyBookDataAccess.csproj.CopyComplete
+F:\c#\BulkyBook\BulkyBookDataAccess\obj\Debug\net6.0\BulkyBookDataAccess.dll
+F:\c#\BulkyBook\BulkyBookDataAccess\obj\Debug\net6.0\refint\BulkyBookDataAccess.dll
+F:\c#\BulkyBook\BulkyBookDataAccess\obj\Debug\net6.0\BulkyBookDataAccess.pdb
+F:\c#\BulkyBook\BulkyBookDataAccess\obj\Debug\net6.0\BulkyBookDataAccess.genruntimeconfig.cache
+F:\c#\BulkyBook\BulkyBookDataAccess\obj\Debug\net6.0\ref\BulkyBookDataAccess.dll
