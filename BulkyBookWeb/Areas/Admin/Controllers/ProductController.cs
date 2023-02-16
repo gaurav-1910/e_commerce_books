@@ -9,10 +9,12 @@ namespace BulkyBookWeb.Areas.Admin.Controllers;
 public class ProductController : Controller
 {
     private readonly IUnitOfWork _unitOfWork;
+    private readonly IWebHostEnvironment _webHostEnvironment;
 
-    public ProductController(IUnitOfWork unitOfWork)
+    public ProductController(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
     {
         _unitOfWork = unitOfWork;
+        _webHostEnvironment = webHostEnvironment;
     }
     [HttpGet]
     public IActionResult Index()
@@ -81,17 +83,30 @@ public class ProductController : Controller
     //POST
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public IActionResult Upsert(CoverType _coverType)
+    public IActionResult Upsert(ProductVM _productView, IFormFile? file)
     {
        
         if (ModelState.IsValid)
         {
-            _unitOfWork.CoverType.Update(_coverType);
+            string wwwRootPath = _webHostEnvironment.WebRootPath;
+            if (file != null) 
+            {
+                string fileName = Guid.NewGuid().ToString();
+                var uploads = Path.Combine(wwwRootPath, @"images\products");
+                var extension = Path.GetExtension(file.FileName);
+
+                using (var fileStreams = new FileStream(Path.Combine(uploads, fileName + extension), FileMode.Create)) 
+                {
+                    file.CopyTo(fileStreams);
+                }
+                _productView.product.ImageUrl = @"\images\products\" + fileName + extension;
+            }
+            _unitOfWork.Product.Add(_productView.product);
             _unitOfWork.Save();
-            TempData["success"] = "CoverType Updated Successfully";
+            TempData["success"] = "Product Added Successfully";
             return RedirectToAction("Index");
         }
-        return View(_coverType);
+        return View(_productView);
     }
     // GET
     public IActionResult Delete(int? id)

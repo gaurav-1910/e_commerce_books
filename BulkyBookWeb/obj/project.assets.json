@@ -10931,9 +10931,12 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "http://proget.truckstopprivate.net/nuget/Pay/": {},
+        "http://proget.truckstopprivate.net/nuget/TestAutomation/": {},
         "http://proget.truckstopprivate.net/nuget/V4Services/": {},
         "http://proget.truckstopprivate.net/nuget/V5Services/": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://gitlab.truckstop.com/api/v4/groups/15/-/packages/nuget/index.json": {},
+        "https://gitlab.truckstop.com/api/v4/groups/481/-/packages/nuget/index.json": {}
       },
       "frameworks": {
         "net6.0": {

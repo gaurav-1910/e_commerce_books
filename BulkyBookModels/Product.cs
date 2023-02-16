@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -29,7 +30,7 @@ namespace BulkyBookModels
         [Required]
         [Range(1, 10000)]
         public double Price100 { get; set; }
-
+        [ValidateNever]
         public string ImageUrl { get; set; }
         [Required]
         public int CategoryId { get; set; }
