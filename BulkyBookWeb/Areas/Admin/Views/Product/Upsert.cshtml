@@ -1,6 +1,7 @@
 ﻿@model BulkyBookModels.ViewModels.ProductVM
 
 <form method = "post" asp-action="Upsert" enctype="multipart/form-data">
+    <input asp-for="product.Id" hidden/>
     <div class="brother p-3 mt-4 row">
         <div class="row pb-2">
             <h2 class="text-primary">@(Model.product.Id!=0?"Update":"Create")Product</h2>
@@ -91,7 +92,7 @@
 <script>
     function ValidateInput()
     {
-        if(document.getElementById("uploadBox").nodeValue=="")
+        if(document.getElementById("UploadBox").value=="")
         {
           Swal.fire({
           icon: 'error',

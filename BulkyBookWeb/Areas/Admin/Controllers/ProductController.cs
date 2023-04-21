@@ -19,8 +19,7 @@ public class ProductController : Controller
     [HttpGet]
     public IActionResult Index()
     {
-        IEnumerable<CoverType> objCoverTypeList = _unitOfWork.CoverType.GetAll();
-        return View(objCoverTypeList);
+        return View();
     }
     //GET
     //public IActionResult Create()
@@ -75,10 +74,11 @@ public class ProductController : Controller
         }
         else 
         {
-            //update product
+            productVM.product = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id);
+            return View(productVM);
         }
         
-        return View(productVM);
+        
     }
     //POST
     [HttpPost]
@@ -95,13 +95,29 @@ public class ProductController : Controller
                 var uploads = Path.Combine(wwwRootPath, @"images\products");
                 var extension = Path.GetExtension(file.FileName);
 
+                if (_productView.product.ImageUrl != null) 
+                {
+                    var oldImagePath = Path.Combine(wwwRootPath, _productView.product.ImageUrl.TrimStart('\\'));
+                    if (System.IO.File.Exists(oldImagePath)) 
+                    {
+                        System.IO.File.Exists(oldImagePath);
+                    }
+                }
                 using (var fileStreams = new FileStream(Path.Combine(uploads, fileName + extension), FileMode.Create)) 
                 {
                     file.CopyTo(fileStreams);
                 }
                 _productView.product.ImageUrl = @"\images\products\" + fileName + extension;
             }
-            _unitOfWork.Product.Add(_productView.product);
+
+            if (_productView.product.Id == 0)
+            {
+                _unitOfWork.Product.Add(_productView.product);
+            }
+            else 
+            {
+                _unitOfWork.Product.Update(_productView.product);
+            }
             _unitOfWork.Save();
             TempData["success"] = "Product Added Successfully";
             return RedirectToAction("Index");
@@ -140,4 +156,17 @@ public class ProductController : Controller
         TempData["success"] = "CoverType Deleted Successfully";
         return RedirectToAction("Index");
     }
+
+    #region  API CALLS 
+
+    [HttpGet]
+    public IActionResult GetAll()
+    {
+        var productList = _unitOfWork.Product.GetAll(includeProperties:"Category,CoverType");
+        return Json(new { data = productList });
+    }
+
+    #endregion
+
+
 }
