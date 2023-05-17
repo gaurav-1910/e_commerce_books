@@ -22,3 +22,15 @@ E:\NewCore\e_com\e_commerce_books\BulkyBookModels\obj\Debug\net6.0\BulkyBookMode
 E:\NewCore\e_com\e_commerce_books\BulkyBookModels\obj\Debug\net6.0\refint\BulkyBookModels.dll
 E:\NewCore\e_com\e_commerce_books\BulkyBookModels\obj\Debug\net6.0\BulkyBookModels.pdb
 E:\NewCore\e_com\e_commerce_books\BulkyBookModels\obj\Debug\net6.0\ref\BulkyBookModels.dll
+D:\e_commerce_books\BulkyBookModels\bin\Debug\net6.0\BulkyBookModels.deps.json
+D:\e_commerce_books\BulkyBookModels\bin\Debug\net6.0\BulkyBookModels.dll
+D:\e_commerce_books\BulkyBookModels\bin\Debug\net6.0\BulkyBookModels.pdb
+D:\e_commerce_books\BulkyBookModels\obj\Debug\net6.0\BulkyBookModels.csproj.AssemblyReference.cache
+D:\e_commerce_books\BulkyBookModels\obj\Debug\net6.0\BulkyBookModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\e_commerce_books\BulkyBookModels\obj\Debug\net6.0\BulkyBookModels.AssemblyInfoInputs.cache
+D:\e_commerce_books\BulkyBookModels\obj\Debug\net6.0\BulkyBookModels.AssemblyInfo.cs
+D:\e_commerce_books\BulkyBookModels\obj\Debug\net6.0\BulkyBookModels.csproj.CoreCompileInputs.cache
+D:\e_commerce_books\BulkyBookModels\obj\Debug\net6.0\BulkyBookModels.dll
+D:\e_commerce_books\BulkyBookModels\obj\Debug\net6.0\refint\BulkyBookModels.dll
+D:\e_commerce_books\BulkyBookModels\obj\Debug\net6.0\BulkyBookModels.pdb
+D:\e_commerce_books\BulkyBookModels\obj\Debug\net6.0\ref\BulkyBookModels.dll

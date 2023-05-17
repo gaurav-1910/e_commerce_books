@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\NewCore\\e_com\\e_commerce_books\\BulkyBookDataAccess\\BulkyBookDataAccess.csproj": {}
+    "D:\\e_commerce_books\\BulkyBookDataAccess\\BulkyBookDataAccess.csproj": {}
   },
   "projects": {
-    "E:\\NewCore\\e_com\\e_commerce_books\\BulkyBookDataAccess\\BulkyBookDataAccess.csproj": {
+    "D:\\e_commerce_books\\BulkyBookDataAccess\\BulkyBookDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NewCore\\e_com\\e_commerce_books\\BulkyBookDataAccess\\BulkyBookDataAccess.csproj",
+        "projectUniqueName": "D:\\e_commerce_books\\BulkyBookDataAccess\\BulkyBookDataAccess.csproj",
         "projectName": "BulkyBookDataAccess",
-        "projectPath": "E:\\NewCore\\e_com\\e_commerce_books\\BulkyBookDataAccess\\BulkyBookDataAccess.csproj",
-        "packagesPath": "C:\\Users\\jai\\.nuget\\packages\\",
-        "outputPath": "E:\\NewCore\\e_com\\e_commerce_books\\BulkyBookDataAccess\\obj\\",
+        "projectPath": "D:\\e_commerce_books\\BulkyBookDataAccess\\BulkyBookDataAccess.csproj",
+        "packagesPath": "C:\\Users\\Gauri\\.nuget\\packages\\",
+        "outputPath": "D:\\e_commerce_books\\BulkyBookDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\NewCore\\e_com\\e_commerce_books\\BulkyBookModels\\BulkyBookModels.csproj": {
-                "projectPath": "E:\\NewCore\\e_com\\e_commerce_books\\BulkyBookModels\\BulkyBookModels.csproj"
+              "D:\\e_commerce_books\\BulkyBookModels\\BulkyBookModels.csproj": {
+                "projectPath": "D:\\e_commerce_books\\BulkyBookModels\\BulkyBookModels.csproj"
               }
             }
           }
@@ -69,7 +69,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -78,21 +79,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\NewCore\\e_com\\e_commerce_books\\BulkyBookModels\\BulkyBookModels.csproj": {
+    "D:\\e_commerce_books\\BulkyBookModels\\BulkyBookModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NewCore\\e_com\\e_commerce_books\\BulkyBookModels\\BulkyBookModels.csproj",
+        "projectUniqueName": "D:\\e_commerce_books\\BulkyBookModels\\BulkyBookModels.csproj",
         "projectName": "BulkyBookModels",
-        "projectPath": "E:\\NewCore\\e_com\\e_commerce_books\\BulkyBookModels\\BulkyBookModels.csproj",
-        "packagesPath": "C:\\Users\\jai\\.nuget\\packages\\",
-        "outputPath": "E:\\NewCore\\e_com\\e_commerce_books\\BulkyBookModels\\obj\\",
+        "projectPath": "D:\\e_commerce_books\\BulkyBookModels\\BulkyBookModels.csproj",
+        "packagesPath": "C:\\Users\\Gauri\\.nuget\\packages\\",
+        "outputPath": "D:\\e_commerce_books\\BulkyBookModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -129,7 +130,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -138,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

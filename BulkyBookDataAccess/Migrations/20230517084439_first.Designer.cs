@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BulkyBookDataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230328132244_first")]
+    [Migration("20230517084439_first")]
     partial class first
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
