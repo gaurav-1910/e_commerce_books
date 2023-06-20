@@ -133,20 +133,5 @@
     "C:\\Users\\Gauri\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Gauri\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU3037",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\': The repository primary signature validity period has expired.",
-      "libraryId": "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl"
-    },
-    {
-      "code": "NU3037",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\': The repository primary signature validity period has expired.",
-      "libraryId": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl"
-    }
-  ]
+  "logs": []
 }

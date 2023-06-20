@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VStvXgcu1ZUSmD9bXVKCwLRMjGj2StdMuiJTaPQUlzI=",
+  "Hash": "HiGWp//jqxBWM2b4s4/lbLAWXtW5KxccCcVGLU5XtBo=",
   "Source": "BulkyBookWeb",
   "BasePath": "_content/BulkyBookWeb",
   "Mode": "Default",
@@ -102,6 +102,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\images\\products\\24ca3a04-e0c9-4d92-b860-8360d6e96b18.jpg",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "images/products/24ca3a04-e0c9-4d92-b860-8360d6e96b18.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\24ca3a04-e0c9-4d92-b860-8360d6e96b18.jpg"
+    },
+    {
       "Identity": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\images\\products\\51eab9e3-9a13-45bd-901c-b67674659597.jpeg",
       "SourceId": "BulkyBookWeb",
       "SourceType": "Discovered",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\51eab9e3-9a13-45bd-901c-b67674659597.jpeg"
+    },
+    {
+      "Identity": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\images\\products\\5f37ab6b-0468-434f-bca8-cdd8b6217bef.JPG",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "images/products/5f37ab6b-0468-434f-bca8-cdd8b6217bef.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\5f37ab6b-0468-434f-bca8-cdd8b6217bef.JPG"
     },
     {
       "Identity": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\images\\products\\8272048e-16c0-4e60-aaf6-a6cfd8901fd0.jpg",
