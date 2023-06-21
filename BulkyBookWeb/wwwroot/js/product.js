@@ -38,3 +38,8 @@ function loadDataTable()
 
     });
 }
+
+function Delete(utl)
+{
+
+}

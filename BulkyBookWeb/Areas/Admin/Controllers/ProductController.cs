@@ -124,38 +124,38 @@ public class ProductController : Controller
         }
         return View(_productView);
     }
-    // GET
-    public IActionResult Delete(int? id)
-    {
-        if (id == null || id == 0)
-        {
-            return NotFound();
-        }
-        //var deleteCategoryFromDb = _db.Categories.Find(id);
-        var coverTypeFromDbSingle = _unitOfWork.CoverType.GetFirstOrDefault(u => u.Id == id);
-        //var categoryToDbSingle = _db.Categories.SingleOrDefault(u=>u.Id == id);
-        if (coverTypeFromDbSingle == null)
-        {
-            return NotFound();
-        }
-        return View(coverTypeFromDbSingle);
-    }
-    //POST
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public IActionResult DeletePost(int? id)
-    {
-        var deleteId = _unitOfWork.CoverType.GetFirstOrDefault(u => u.Id == id);
-        if (deleteId == null)
-        {
-            return NotFound();
-        }
+    //// GET
+    //public IActionResult Delete(int? id)
+    //{
+    //    if (id == null || id == 0)
+    //    {
+    //        return NotFound();
+    //    }
+    //    //var deleteCategoryFromDb = _db.Categories.Find(id);
+    //    var coverTypeFromDbSingle = _unitOfWork.CoverType.GetFirstOrDefault(u => u.Id == id);
+    //    //var categoryToDbSingle = _db.Categories.SingleOrDefault(u=>u.Id == id);
+    //    if (coverTypeFromDbSingle == null)
+    //    {
+    //        return NotFound();
+    //    }
+    //    return View(coverTypeFromDbSingle);
+    //}
+    ////POST
+    //[HttpPost]
+    //[ValidateAntiForgeryToken]
+    //public IActionResult DeletePost(int? id)
+    //{
+    //    var deleteId = _unitOfWork.CoverType.GetFirstOrDefault(u => u.Id == id);
+    //    if (deleteId == null)
+    //    {
+    //        return NotFound();
+    //    }
 
-        _unitOfWork.CoverType.Remove(deleteId);
-        _unitOfWork.Save();
-        TempData["success"] = "CoverType Deleted Successfully";
-        return RedirectToAction("Index");
-    }
+    //    _unitOfWork.CoverType.Remove(deleteId);
+    //    _unitOfWork.Save();
+    //    TempData["success"] = "CoverType Deleted Successfully";
+    //    return RedirectToAction("Index");
+    //}
 
     #region  API CALLS 
 
@@ -164,6 +164,26 @@ public class ProductController : Controller
     {
         var productList = _unitOfWork.Product.GetAll(includeProperties:"Category,CoverType");
         return Json(new { data = productList });
+    }
+    [HttpDelete]
+   
+    public IActionResult DeletePOST(int? id)
+    {
+        var deleteId = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id);
+        if (deleteId == null)
+        {
+            return Json(new { success = false, message = "Error while deleting" });
+        }
+        var oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, deleteId.ImageUrl.TrimStart('\\'));
+        if (System.IO.File.Exists(oldImagePath))
+        {
+            System.IO.File.Exists(oldImagePath);
+        }
+
+        _unitOfWork.Product.Remove(deleteId);
+        _unitOfWork.Save();
+        return Json(new { success = true, message = "Delete Successful" });
+       
     }
 
     #endregion
