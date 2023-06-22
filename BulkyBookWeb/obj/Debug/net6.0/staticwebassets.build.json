@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HiGWp//jqxBWM2b4s4/lbLAWXtW5KxccCcVGLU5XtBo=",
+  "Hash": "6XcnPnkzwrNY4TgMacRAw3ZE3rjLBDdtTmvDo5J429g=",
   "Source": "BulkyBookWeb",
   "BasePath": "_content/BulkyBookWeb",
   "Mode": "Default",
@@ -117,6 +117,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\24ca3a04-e0c9-4d92-b860-8360d6e96b18.jpg"
+    },
+    {
+      "Identity": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\images\\products\\4927b44b-ca8c-459c-ba48-8c9a3cea6377.jpg",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "images/products/4927b44b-ca8c-459c-ba48-8c9a3cea6377.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\4927b44b-ca8c-459c-ba48-8c9a3cea6377.jpg"
+    },
+    {
+      "Identity": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\images\\products\\4e127a67-d18a-497d-add1-b5661199be32.jpg",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "images/products/4e127a67-d18a-497d-add1-b5661199be32.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\4e127a67-d18a-497d-add1-b5661199be32.jpg"
     },
     {
       "Identity": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\images\\products\\51eab9e3-9a13-45bd-901c-b67674659597.jpeg",
