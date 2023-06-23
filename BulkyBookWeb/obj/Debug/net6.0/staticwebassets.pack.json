@@ -17,8 +17,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\images\\products\\0a00047f-303c-4b3b-89e9-f814f842ba5e.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\0a00047f-303c-4b3b-89e9-f814f842ba5e.jfif"
+    },
+    {
+      "Id": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\images\\products\\0eedc6e1-bbde-4765-a501-b7e3c655479d.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\0eedc6e1-bbde-4765-a501-b7e3c655479d.jpg"
+    },
+    {
       "Id": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\images\\products\\24ca3a04-e0c9-4d92-b860-8360d6e96b18.jpg",
       "PackagePath": "staticwebassets\\images\\products\\24ca3a04-e0c9-4d92-b860-8360d6e96b18.jpg"
+    },
+    {
+      "Id": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\images\\products\\48d22b0a-5f9e-4dbc-990a-5b04b2b97391.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\48d22b0a-5f9e-4dbc-990a-5b04b2b97391.jfif"
     },
     {
       "Id": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\images\\products\\4927b44b-ca8c-459c-ba48-8c9a3cea6377.jpg",
@@ -39,6 +51,26 @@
     {
       "Id": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\images\\products\\8272048e-16c0-4e60-aaf6-a6cfd8901fd0.jpg",
       "PackagePath": "staticwebassets\\images\\products\\8272048e-16c0-4e60-aaf6-a6cfd8901fd0.jpg"
+    },
+    {
+      "Id": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\images\\products\\8ffcc018-29fa-4c2c-981f-f6267ad8ffce.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\8ffcc018-29fa-4c2c-981f-f6267ad8ffce.jfif"
+    },
+    {
+      "Id": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\images\\products\\952cd9b0-4db8-4258-ba63-984dda863a96.webp",
+      "PackagePath": "staticwebassets\\images\\products\\952cd9b0-4db8-4258-ba63-984dda863a96.webp"
+    },
+    {
+      "Id": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\images\\products\\a7871fed-283c-4328-8bf0-e29cd0f4d6a8.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\a7871fed-283c-4328-8bf0-e29cd0f4d6a8.jpg"
+    },
+    {
+      "Id": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\images\\products\\a9e6670e-0701-499a-9464-90b002f44605.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\a9e6670e-0701-499a-9464-90b002f44605.jfif"
+    },
+    {
+      "Id": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\images\\products\\fc2d406b-6497-4b85-9621-c19afe23e168.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\fc2d406b-6497-4b85-9621-c19afe23e168.jpg"
     },
     {
       "Id": "D:\\e_commerce_books\\BulkyBookWeb\\wwwroot\\js\\product.js",
